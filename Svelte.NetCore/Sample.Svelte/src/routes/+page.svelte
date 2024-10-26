@@ -24,11 +24,11 @@
 
 
   <button on:click={getWeatherForecast} disabled={loading}>
-    {loading ? 'Loading...' : 'Get Weather Forecast'}
+    {loading ? 'Loading...' : 'Get Weather Forecast From .NET Core 8 Backend'}
   </button>
 
   {#if weatherData}
-    <h2>Weather Forecast</h2>
+    <h2>Weather Forecast </h2>
     <ul>
       {#each weatherData as forecast}
         <li>
