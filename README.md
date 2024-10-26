@@ -1,5 +1,6 @@
 # Svelte.NetCore
-Svelte 5 Front End / .NET Core Backend
+
+This template provides a robust starting point for projects utilizing a .NET Core 8 backend API and a Svelte/SvelteKit frontend as a Single Page Application (SPA). Designed to streamline development, this template combines powerful server-side API capabilities with a responsive, dynamic front end. Built following Microsoft’s ASP.NET Core SPA guidelines, this project serves as a foundation for scalable, modern web applications.
 
 ## Libraries Used
 
@@ -11,7 +12,7 @@ Svelte 5 Front End / .NET Core Backend
 - Tailwind CSS
 
 
-### .NET Core Backend
+### .NET Core 8 Backend
 - ASP.NET Core Web API
 
 
@@ -46,27 +47,22 @@ Svelte 5 Front End / .NET Core Backend
 4. Run the backend:
 
     In visual studio right click on the Sample.Api project and select "Set as Startup Project"
+    Press F5 to run the project
 
 5. In a new terminal, run the frontend:
    ```
-   cd ../ClientApp
+   cd ../Sample.Svelte
    npm run dev
    ```
 
-6. Open your browser and navigate to `http://localhost:5000` (or the port specified in your Svelte config).
+6. Hit F5 in Visual Studio Code to launch the browser or navigate to `http://localhost:5173` in your browser
 
-## Development
 
-[Add any specific development instructions or guidelines]
-
-## Building for Production
-
-[Add instructions for building and deploying the project]
 
 ## Contributing
 
-[Add contribution guidelines if applicable]
+
 
 ## License
 
-[Specify the license for your project]
+MIT License
