@@ -1,6 +1,6 @@
 # Svelte.NetCore
 
-This template provides a robust starting point for projects utilizing a .NET Core 8 backend API and a Svelte/SvelteKit frontend as a Single Page Application (SPA). Designed to streamline development, this template combines powerful server-side API capabilities with a responsive, dynamic front end. Built following Microsoft’s ASP.NET Core SPA guidelines, this project serves as a foundation for scalable, modern web applications.
+This template provides a robust starting point for projects utilizing a .NET Core 8 backend API and a Svelte / SvelteKit frontend as a Single Page Application (SPA). Designed to streamline development, this template combines powerful server-side API capabilities with a responsive, dynamic front end. Built following Microsoft’s ASP.NET Core SPA guidelines, this project serves as a foundation for scalable, modern web applications.
 
 ## Libraries Used
 
@@ -21,7 +21,6 @@ This template provides a robust starting point for projects utilizing a .NET Cor
 ### Prerequisites
 - Node.js (version 20.X or higher)
 - .NET Core SDK (version 8.X or higher)
-- [Any other prerequisites]
 
 ### Setup and Run
 
