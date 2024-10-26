@@ -20,7 +20,8 @@
 
 <main>
   <h1>Welcome to SvelteKit with a .NET Core backend</h1>
-  <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+  <p>This is a sample page to demonstrate how to use a .NET Core 8 backend with a Svelte frontend</p>
+
 
   <button on:click={getWeatherForecast} disabled={loading}>
     {loading ? 'Loading...' : 'Get Weather Forecast'}
@@ -39,12 +40,20 @@
 </main>
 
 <style>
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #a9d4ce 100%);
+  }
+
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+    min-height: 100vh;
   }
 
   h1, h2, p {
